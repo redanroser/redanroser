@@ -1,0 +1,12 @@
+* {
+  font-family: 'Space Mono', monospace;
+  background-color: #000000;
+  color: #ececec;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
