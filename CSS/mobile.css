@@ -62,9 +62,14 @@
   }
   .nav__link-li {
     display: block;
+    margin: 0px 0px 12px 0px;
   }
   .nav__link-a {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+  }
+  .nav__link-a:hover {
+    font-size: 1.9rem;
+    font-weight: 700;
   }
 
 
