@@ -66,17 +66,20 @@
   }
   .header__title {
     color: var(--color-white);
+    user-select: none;
   }
 
-
+  .nav {
+    margin: 20px 10px 30px 10px;
+  }
   
 
   .content {
     display: block;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 10px 30px 10px;
   }
   .content__title {
-    margin: 15px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
   }
   .content__paragraph {
     margin: 0px 0px 12px 0px;
