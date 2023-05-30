@@ -17,6 +17,14 @@
   scroll-behavior: smooth;
 }
 
+::selection {
+  background-color: rgba(0, 12, 184, 0.76);
+  color: white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   background-color: var(--background-white);
 }
@@ -31,4 +39,8 @@ a {
 
 ol, ul, li {
   list-style: none;
+}
+
+.no-select {
+  user-select: none;
 }

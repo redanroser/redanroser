@@ -1,0 +1,54 @@
+@media screen and (min-width: 769px) {
+
+  h1 {
+    font-size: 4.4rem;
+  }
+  h2 {
+    font-size: 3.9rem;
+  }
+  h3 {
+    font-size: 3.4rem;
+  }
+  h4 {
+    font-size: 2.9rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 2rem;
+  }
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+  html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+  .header {
+    background-color: var(--senati-blue);
+  }
+  .header__title {
+    color: var(--color-white);
+  }
+  .header__konnichiwa {
+    text-align: left;
+  }
+  .header__konnichiwa a {
+    color: var(--color-white);
+  }
+
+}
